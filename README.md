@@ -1,23 +1,23 @@
-# Icon Button Component
+# UCWS Button Component
 
 A reusable icon button component built with Lit. Matthew Bauman experiment.
 
 ## Installation
 
 ```bash
-npm install icon-button
+npm install ucws-button
 ```
 
 ## Usage
 Import the component into your project:
 
 ```
-import 'icon-button/icon-button.js';
+import 'ucws-button/ucws-button.js';
 ```
 Then use it in your HTML:
 ```
-<icon-button type="default">Submit</icon-button>
-<icon-button type="ghost">Cancel</icon-button>
+<ucws-button type="default">Submit</icon-button>
+<ucws-button type="ghost">Cancel</icon-button>
 ```
 ## Properties
 `type:` Defines the button type (default or ghost).
