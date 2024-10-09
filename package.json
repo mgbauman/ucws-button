@@ -1,0 +1,13 @@
+{
+  "name": "ucws-button",
+  "version": "1.0.0",
+  "description": "A reusable icon button component built with Lit",
+  "license": "MIT",
+  "author": "Matthew Bauman",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "lit": "^3.1.4"
+  }
+}
+
