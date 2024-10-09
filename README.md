@@ -12,7 +12,7 @@ npm install ucws-button
 Import the component into your project:
 
 ```
-import 'ucws-button/ucws-button.js';
+import 'ucws-button';
 ```
 Then use it in your HTML:
 ```
