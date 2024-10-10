@@ -27,7 +27,8 @@ const t=globalThis,i$1=t.trustedTypes,s=i$1?i$1.createPolicy("lit-html",{createH
 class UcwsButton extends r {
 
   static properties = {
-    buttonType: {type: String, attribute: 'button-type'},
+    buttonType: { type: String, attribute: 'button-type' },
+    href: { type: String }
   };
 
   get buttonType() {
@@ -54,7 +55,7 @@ class UcwsButton extends r {
       text-decoration: none;
       font-weight: 600;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 25px;
     }
 
@@ -100,11 +101,12 @@ class UcwsButton extends r {
   constructor() {
     super();
     this._buttonType = 'default';
+    this.href = '';
   }
 
   render() {
     return x`
-        <a class="btn ${this.buttonType}" href="" role="button">
+        <a class="btn ${this.buttonType}" href="${this.href}" role="button">
 
           <slot></slot>
 

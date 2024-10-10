@@ -3,7 +3,8 @@ import {LitElement, html, css} from 'lit';
 export class UcwsButton extends LitElement {
 
   static properties = {
-    buttonType: {type: String, attribute: 'button-type'},
+    buttonType: { type: String, attribute: 'button-type' },
+    href: { type: String }
   };
 
   get buttonType() {
@@ -30,7 +31,7 @@ export class UcwsButton extends LitElement {
       text-decoration: none;
       font-weight: 600;
       font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 25px;
     }
 
@@ -76,11 +77,12 @@ export class UcwsButton extends LitElement {
   constructor() {
     super();
     this._buttonType = 'default';
+    this.href = '';
   }
 
   render() {
     return html`
-        <a class="btn ${this.buttonType}" href="" role="button">
+        <a class="btn ${this.buttonType}" href="${this.href}" role="button">
 
           <slot></slot>
 
