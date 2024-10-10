@@ -16,8 +16,8 @@ import 'ucws-button';
 ```
 Then use it in your HTML:
 ```
-<ucws-button type="default">Submit</icon-button>
-<ucws-button type="ghost">Cancel</icon-button>
+<ucws-button type="default">Submit</ucws-button>
+<ucws-button type="ghost">Cancel</ucws-button>
 ```
 ## Properties
 `type:` Defines the button type (default or ghost).
