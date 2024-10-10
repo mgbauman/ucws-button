@@ -1,0 +1,24 @@
+{
+  "name": "mgbauman/ucws-button",
+  "description": "A reusable web component for a button.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthew Bauman",
+      "email": "mgbauman@ucalgary.ca"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "IconButton\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.x-dev"
+    }
+  }
+}
