@@ -1,7 +1,7 @@
 {
   "name": "mgbauman/ucws-button",
   "description": "A reusable web component for a button.",
-  "type": "library",
+  "type": "drupal-library",
   "license": "MIT",
   "authors": [
     {
