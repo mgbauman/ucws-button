@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="Description" content="Put your description here.">
+  <base href="/">
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <title>UCWS Component Wrapper</title>
+</head>
+<body>
+<script type="module" src="./src/ucws-button.js"></script>
+<script type="module" src="./index.js"></script>
+
+  <ucws-web-component-wrapper>
+    <ucws-button button-type="default">Test 1 - default</ucws-button>
+    <ucws-button button-type="ghost">Test 2 - ghost</ucws-button>
+    <ucws-button button-type="asdfasdf">Test 3 - invalid</ucws-button>
+    <ucws-button>Test 4 - unset</ucws-button>
+    <ucws-button>Test 5</ucws-button>
+  </ucws-web-component-wrapper>
+</body>
+</html>

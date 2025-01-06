@@ -1,0 +1,1 @@
+import 'ucws-web-component-wrapper';

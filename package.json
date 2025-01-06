@@ -3,15 +3,33 @@
   "version": "1.0.0",
   "description": "A reusable icon button component built with Lit",
   "license": "MIT",
-  "author": "Matthew Bauman",
+  "author": {
+    "name": "Matthew Bauman"
+  },
   "type": "module",
   "main": "src/ucws-button.js",
   "dependencies": {
     "lit": "^3.1.4"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.3",
     "@rollup/plugin-commonjs": "^28.0.0",
     "@rollup/plugin-node-resolve": "^15.3.0",
-    "rollup": "^4.24.0"
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "@storybook/web-components": "^8.4.7",
+    "@storybook/web-components-vite": "^8.4.7",
+    "@web/dev-server": "^0.4.6",
+    "chromatic": "^11.19.0",
+    "rollup": "^4.24.0",
+    "storybook": "^8.4.7",
+    "ucws-web-component-wrapper": "github:mgbauman/ucws-component-wrapper"
+  },
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_30e586e96369984"
   }
 }

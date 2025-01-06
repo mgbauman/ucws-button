@@ -19,7 +19,13 @@ Then use it in your HTML:
 <ucws-button type="default">Submit</ucws-button>
 <ucws-button type="ghost">Cancel</ucws-button>
 ```
+
+For development, the `ucws-component-wrapper` component is included. 
+Run `npm start` to open a page with the wrapper and edit `index.html` to adjust 
+to your local testing and development needs. 
+
 ## Properties
-`type:` Defines the button type (default or ghost).
+`button-type:` Defines the button type (default or ghost).
+`href:` Defines the href of the button.
 ### Slots:
 `Default slot:` Used for the button text.

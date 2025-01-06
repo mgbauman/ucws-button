@@ -1,5 +1,14 @@
 import {LitElement, html, css} from 'lit';
 
+/**
+ * Primary UI component for user interaction
+ *
+ * @element ucws-button
+ *
+ * @prop {string} buttonType - The type of button. One of {'default', 'ghost'}
+ * @prop {string} href - The url the button should send users
+ * @slot - This slot is used to put text inside the button
+ */
 export class UcwsButton extends LitElement {
 
   static properties = {
