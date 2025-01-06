@@ -7,7 +7,6 @@ A reusable icon button component built with Lit. Matthew Bauman experiment.
 ```bash
 npm install ucws-button
 ```
-
 ## Usage
 Import the component into your project:
 
@@ -19,7 +18,6 @@ Then use it in your HTML:
 <ucws-button type="default">Submit</ucws-button>
 <ucws-button type="ghost">Cancel</ucws-button>
 ```
-
 For development, the `ucws-component-wrapper` component is included. 
 Run `npm start` to open a page with the wrapper and edit `index.html` to adjust 
 to your local testing and development needs. 
